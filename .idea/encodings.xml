@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java/com/dxc/IOC/ClassA.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/dxc/activemq/Receiver.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/dxc/activemq/Sender.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/dxc/classLoader/ClassLoaderTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/dxc/classLoader/PrivateCar.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/dxc/classLoader/PrivateCarReflect.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/dxc/classLoader/ReflectTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/dxc/exception/TestException.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/dxc/exception/TsException.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/dxc/initClass/Bird.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/dxc/initClass/Test.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/dxc/mongodb/SimpleTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/dxc/neiBuLei/Cow.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/dxc/thinkingInJava/caozuofu/Test.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
