@@ -1,0 +1,33 @@
+##maven compile
+**/target/
+
+##eclipse files
+.classpath
+.project
+.settings/
+
+##idea files
+*.iml
+.idea/
+
+##mac files
+.DS_Store
+
+##bak files
+*.bak
+
+
+
+*/src/main/webapp/WEB-INF/classes
+.project
+.classpath
+*.MF
+*git*
+baitiao-*/.settings
+baitiao-*/target
+baitiao-*/bin
+.settings
+*.iws
+*.iml
+*.ipr
+.idea/*
