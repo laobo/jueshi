@@ -157,7 +157,7 @@ public class MyHashMap<K, V> extends AbstractMap<K, V> implements Map<K, V>, Clo
     final int hash(Object k){
         int h = hashSeed;
         if(0 != h && k instanceof String){
-            return sun.misc.Hashing.stringHash32((String) k);
+//            return sun.misc.Hashing.stringHash32((String) k);
         }
         h ^= k.hashCode();
         h ^= (h >>> 20) ^ (h >>> 12);

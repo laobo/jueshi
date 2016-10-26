@@ -1,6 +1,6 @@
 package com.designpattern.singlton;
 
-import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader;
+//import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader;
 
 /**
  * Created by duanxiangchao on 2016/7/26.
