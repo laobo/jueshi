@@ -11,7 +11,7 @@ public class TestRunnable {
         DoSomeThing ds2 = new DoSomeThing("李四");
 
         Thread thread1 = new Thread(ds1);
-        Thread thread2 = new Thread(ds2);
+        Thread thread2 = new Thread(ds1);
 
         thread1.start();
         thread2.start();

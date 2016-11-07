@@ -14,7 +14,7 @@ public class DoSomeThing implements Runnable {
     public void run() {
 
         for(int i=0; i<5; i++){
-//            for(long k=0; k<10000000; k++);
+            for(long k=0; k<10000000; k++);
             System.out.println(name + ":" + i);
         }
 
