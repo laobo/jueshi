@@ -15,9 +15,9 @@ public class TestRedis {
     public static void main(String [] str){
 
 //        keyOperate();
-//        stringOperate();
+        stringOperate();
 //        listOperate();
-        setOperate();
+//        setOperate();
     }
 
     //key功能

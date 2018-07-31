@@ -12,13 +12,19 @@ public class Test {
     public static void main(String[] str){
 
         //创建IOC文件测抽象资源
-        ClassPathResource resource = new ClassPathResource("spring/spring-beans.xml");
-        //创建BeanFactory,这里使用DefaultListableBeanFactory
-        DefaultListableBeanFactory factory = new DefaultListableBeanFactory();
-        //创建BeanDefinition的读取器
-        XmlBeanDefinitionReader reader = new XmlBeanDefinitionReader(factory);
-        //从配置好的资源位置读入配置信息
-        reader.loadBeanDefinitions(resource);
+//        ClassPathResource resource = new ClassPathResource("spring/spring-beans.xml");
+//        //创建BeanFactory,这里使用DefaultListableBeanFactory
+//        DefaultListableBeanFactory factory = new DefaultListableBeanFactory();
+//        //创建BeanDefinition的读取器
+//        XmlBeanDefinitionReader reader = new XmlBeanDefinitionReader(factory);
+//        //从配置好的资源位置读入配置信息
+//        reader.loadBeanDefinitions(resource);
+
+
+        System.out.println(new Double(Math.pow(2, 63)).longValue());
+        System.out.println(Math.pow(2, 63));
+        System.out.println(Math.pow(2, 63) - Long.MAX_VALUE);
+        System.out.println(Long.MAX_VALUE);
 
     }
 

@@ -30,7 +30,7 @@ public class RedisClient {
         config.setMaxWaitMillis(10001);
         config.setTestOnBorrow(false);
         config.setJmxNamePrefix("laobo");
-        jedisPool = new JedisPool(config, "127.0.0.1", 6379);
+        jedisPool = new JedisPool(config, "192.168.100.22", 6379);
     }
 
     private void initalShardedPool(){
@@ -40,7 +40,7 @@ public class RedisClient {
         config.setTestOnBorrow(false);
         config.setTestOnBorrow(false);
         List<JedisShardInfo> shards = new ArrayList<JedisShardInfo>();
-        shards.add(new JedisShardInfo("127.0.0.1", 6379, "master"));
+        shards.add(new JedisShardInfo("192.168.100.22", 6379, "master"));
         shardedJedisPool = new ShardedJedisPool(config, shards);
     }
 

@@ -14,5 +14,10 @@
      http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
 
      <bean id="userService" class="com.spring.service.impl.UserServiceImpl" />
+
+
+     <!--<import resource="rabbit-producer.xml" />-->
+     <import resource="rabbit-consumer.xml" />
+
     
 </beans>
