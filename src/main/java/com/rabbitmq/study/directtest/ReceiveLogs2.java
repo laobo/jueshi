@@ -1,6 +1,7 @@
 package com.rabbitmq.study.directtest;
 
 import com.rabbitmq.client.*;
+import com.rabbitmq.study.CommonConnection;
 
 import java.io.IOException;
 import java.util.concurrent.TimeoutException;
@@ -14,7 +15,7 @@ public class ReceiveLogs2 {
 
     public static void main(String[] args) throws IOException, TimeoutException {
 
-        ConnectionFactory connectionFactory = new ConnectionFactory();
+        ConnectionFactory connectionFactory = CommonConnection.getFactory();
 
         Connection connection = connectionFactory.newConnection();
 

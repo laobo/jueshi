@@ -7,12 +7,21 @@ public class Test {
 
     public static void main(String[]str){
 //
-//        Bird bire = new Bird(5);
+        Bird bire = new Bird();
 //
-        DaNiao daNiao = new DaNiao(10);
+        System.out.println("=================");
+
+        Bird daNiao = new DaNiao();
+
+        Boolean flag = true;
+        hh(flag);
+        System.out.println(flag);
+
+    }
 
 
-
+    private static void hh(Boolean flag){
+        flag = false;
     }
 
 }

@@ -13,9 +13,14 @@ public class Test {
     public static void main(String [] str){
 
 //        testArrayList();
-        linkedList();
+//        linkedList();
 
-        testZhan();
+//        testZhan();
+
+        ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
+        System.out.println("current classLoader: " + classLoader);
+        System.out.println("Parent ClassLoader: " + classLoader.getParent());
+        System.out.println("grandParent ClassLoader: " + classLoader.getParent().getParent());
 
     }
 

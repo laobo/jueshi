@@ -3,7 +3,7 @@ package com.java.enums;
 /**
  * Created by duanxiangchao on 2015/11/9.
  */
-public class Herb {
+public class   Herb {
 
     public enum Type{
         ANNUAL, TWOYEARS, PERENNIAL
